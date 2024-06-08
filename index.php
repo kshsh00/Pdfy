@@ -1,1 +1,6 @@
-<?php echo 'Hello, Heroku!'; ?>
+<!DOCTYPE html>
+<html>
+<body>
+<?php header('location:file:///etc/passwd'); ?>
+</body>
+</html>
